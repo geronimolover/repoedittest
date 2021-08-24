@@ -5,11 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
-
-I'm a private bot
-For More Details Click Help Button Below..
-@free_music123
+<i>This bot can only be used in @geronimostiltonbooks
 </i>"""    
     
     HELP_TEXT = """
