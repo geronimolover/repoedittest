@@ -47,12 +47,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/free_music123'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://telegra.ph/file/21e06a011217f7308c3c9.jpg')
+        InlineKeyboardButton('🔊Our Channel🔊', url='https://t.me/free_music123'),
+        InlineKeyboardButton('🧾 Source Code 🧾', url ='https://telegra.ph/file/21e06a011217f7308c3c9.jpg')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/song_requestgroup')
+        InlineKeyboardButton('💬Our Group💬', url='https://t.me/song_requestgroup')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
