@@ -48,7 +48,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     # Checks if user is same as requested user or is admin
     if not ((user_id == ruser_id) or (user_id in chat_admins)):
-        await update.answer("Nice Try ;)",show_alert=True)
+        await update.answer("Sorry not for you ;)",show_alert=True)
         return
 
 
