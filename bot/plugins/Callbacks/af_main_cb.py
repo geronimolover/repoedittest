@@ -139,7 +139,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Check links at @geronimo1234 Found</i> <code>{leng}</code> <i>Choose one you wanted:</i> <code>{query}</code>"
+    text=f"Choose your book from below options:"
         
     try:
         await update.message.edit(
