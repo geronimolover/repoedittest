@@ -8,6 +8,8 @@ class Translation(object):
 <i>This bot can only be used in @geronimostiltonbooks
 </i>"""    
     
+    STARTPIC = "https://telegra.ph/file/ba1c0c6b7be580e5acdff.jpg"
+    
     HELP_TEXT = """
 Sorry I cant help you
 """
